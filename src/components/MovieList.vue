@@ -70,6 +70,7 @@
                     <thead>
                     <tr>
                         <th scope="col">Name</th>
+                        <th scope="col">Director</th>
                         <th scope="col">Description</th>
                         <th scope="col">Year</th>
                         <th scope="col">Rating</th>
@@ -80,6 +81,7 @@
                     <tbody>
                     <tr v-for="movie in movies" v-bind:key="movie">
                         <th scope="row">{{ movie.name }}</th>
+                        <td>{{ movie.director }}</td>
                         <td>{{ movie.description }}</td>
                         <td>{{ movie.year }}</td>
                         <td>{{ movie.rating }}</td>
