@@ -28,6 +28,12 @@
                         </div>
                       </div>
                       <div class="form-group row justify-content-around py-2">
+                        <label class="col-5">Director</label>
+                        <div class="col col-7">
+                          <input v-model="movie.director" type="text" class="form-control-sm form-control">
+                        </div>
+                      </div>
+                      <div class="form-group row justify-content-around py-2">
                         <label class="col-5">Description</label>
                         <div class="col col-7">
                           <input v-model="movie.description" type="text" class="form-control-sm form-control">

@@ -123,6 +123,7 @@
                 authenticated: false,
                 headers: [
                     {text: 'Name', sortable: false, align: 'left'},
+                    {text: 'Director', sortable: false, align: 'left'},
                     {text: 'Description', sortable: false, align: 'left',},
                     {text: 'Year', sortable: false, align: 'left',},
                     {text: 'Rating', sortable: false, align: 'left',},
